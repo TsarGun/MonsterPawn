@@ -1,0 +1,15 @@
+.login .button {
+    text-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 0;
+    box-shadow: none;
+    height:auto !important;
+    padding: 10px 20px !important;
+    border: none !important;
+}
+
+.login h1 a {
+    background: none;
+    text-indent: 0;
+}

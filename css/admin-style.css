@@ -1,0 +1,55 @@
+/*
+Admin dashboard styles
+*/
+
+/*Show bootstrap width option only in footer widget area*/
+.widget_bootstrap_width,
+.widget_bootstrap_custom_width{
+	display: none;
+}
+#sidebar-footer .widget_bootstrap_width,
+#sidebar-footer-secondary .widget_bootstrap_width,
+#sidebar-footer .widget_bootstrap_custom_width,
+#sidebar-footer-secondary .widget_bootstrap_custom_width,
+#accordion-section-sidebar-widgets-sidebar-footer .widget_bootstrap_width {
+	display: block;
+}
+/*Hidding bullets in list of predefined page, section and column templates*/
+div .fw-builder-templates-types > .fw-builder-templates-type ul.std li {
+	list-style: none;
+}
+/*Hiding Booked plugin default color chooser*/
+#booked-admin-panel-container  #booked-general > .section-row:nth-last-child(2) {
+	display: none !important;
+}
+/*fixing format dropdown in TinyMCE editor in Unyson popup*/
+.mce-panel.mce-menu {
+	z-index: 100100 !important;
+}
+/*fixing unyson sidebar extension styles due to jquery-ui-fresh.min.js*/
+.fw-options-tabs-wrapper .ui-widget-content,
+.fw-options-tabs-wrapper.ui-widget-content,
+.fw-sidebars-tabs-wrapper .ui-widget-content,
+.fw-sidebars-tabs-wrapper.ui-widget-content {
+	border: none;
+	background: transparent;
+}
+
+.fw-options-tabs-wrapper .ui-widget-header,
+.fw-sidebars-tabs-wrapper .ui-widget-header {
+	border: none;
+}
+
+.fw-options-tabs-wrapper.ui-state-default,
+.fw-options-tabs-wrapper.ui-widget-content .ui-state-default,
+.fw-options-tabs-wrapper .ui-widget-header .ui-state-default,
+.fw-sidebars-tabs-wrapper.ui-state-default,
+.fw-sidebars-tabs-wrapper.ui-widget-content .ui-state-default,
+.fw-sidebars-tabs-wrapper .ui-widget-header .ui-state-default {
+	border: none;
+}
+
+.fw-options-tabs-wrapper .nav-tab,
+.fw-sidebars-tabs-wrapper .nav-tab {
+	margin-left: 0;
+}

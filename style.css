@@ -1,0 +1,220 @@
+/*
+Theme Name: Cashelrie
+Theme URI: http://webdesign-finder.com/cashelrie
+Author: MWTemplates
+Author URI: http://modernwebtemplates.com
+Description: Cashelrie - Pawn Shop WordPress theme
+Version: 1.2.0
+License: Themeforest Split Licence
+License URI: https://themeforest.net/licenses/terms/regular
+Tags: custom-header, left-sidebar, right-sidebar, post-formats, full-width-template
+Text Domain: beproud
+Domain Path: /languages
+
+This theme uses great Unyson Framework to make best user experience
+
+see css/main.css for all of the styles
+*/
+
+
+/*
+** WordPress Required
+*/
+.alignnone {
+    margin: 5px 0 20px 0;
+    clear: both;
+}
+
+.aligncenter,
+div.aligncenter {
+    clear: both;
+    display: block;
+    margin: 5px auto 20px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    border: 1px solid #d9d9d9;
+    padding: 5px 3px 5px;
+    text-align: center;
+}
+
+dl.wp-caption {
+    border: none;
+    padding: 0;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 0 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.gallery-caption {
+    color: #707070;
+    color: rgba(51, 51, 51, 0.7);
+    display: block;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    clip: auto !important;
+    display: block;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+.sticky,
+.bypostauthor{position: relative;}
+
+/*gutenberg*/
+p[class*="-font-size"],
+p[style*="font-size"] {
+    line-height: 1.3em;
+}
+.wp-block-quote cite,
+.wp-block-pullquote cite {
+    margin-top: .5em;
+}
+.wp-block-quote cite:before,
+.wp-block-pullquote cite:before {
+    margin-top: 0;
+}
+
+.wp-block-button a.wp-block-button__link {
+    color: #fff;
+    border: 2px solid #fd5057;
+    background-color: #fd5057;
+}
+.wp-block-button .wp-block-button__link:hover {
+    background-color: transparent;
+    color: #32373c;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+    color: #32373c;
+    border-color: #fd5057;
+    background-color: transparent;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+    background-color: #fd5057;
+    color: #fff;
+}
+
+ul.wp-block-gallery.alignwide {
+    width: 100%;
+}
+
+.entry-content .wp-block-table.is-style-stripes td {
+    border-color: grey;
+}
+
+.selectize-control.single {
+    margin-bottom: 15px;
+}
+
+blockquote.wp-block-quote[style*="text-align:right"] cite {
+    text-align: right;
+}
+
+.wp-block-archives.wp-block-archives-dropdown {
+    margin-bottom: 20px;
+}
+
+.item-content .entry-content::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.wp-block-column .wp-block-quote:first-child{
+    margin-top: 0;
+}
+
+#attachment_612{
+    display: none;
+}
+
+#attachment_612 + p{
+    display: none;
+}
+
+.widget_nav_menu li a, .widget_archive li a, .widget_categories li a, .widget_meta li a, .widget_pages li a{
+    min-height: 60px;
+}
+
+.widget_archive a:empty, .widget_categories a:empty, .widget_meta a:empty, .widget_nav_menu a:empty, .widget_pages a:empty{
+    display: inherit!important;
+}
+
+.item-media.post-thumbnail .item{
+    text-align: center;
+}
