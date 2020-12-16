@@ -94,7 +94,6 @@ $main_section_class = 'ls';
 		<?php endif; ?>
 			<div class="container">
 				<div class="row">
-
 					<?php if ( is_home() ) {
 						$blog_slider_options = function_exists( 'fw_get_db_customizer_option' ) ? fw_get_db_customizer_option( 'blog_slider_switch' ) : '';
 						$blog_slider_enabled = false;
